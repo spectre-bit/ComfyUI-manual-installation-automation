@@ -53,10 +53,7 @@ int wmain() {
         println_error("to_absolute_path error");
         return ec;
     }
-    t_info.path = python_path;;
-
-    process p;
-    init_process(&p);
+    t_info.path = python_path;
 
     wchar_t args_file[] = L"args.ini";
 
