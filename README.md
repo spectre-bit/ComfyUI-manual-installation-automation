@@ -112,17 +112,17 @@ llvm-rc ressource.rc
 compile install_comfy
 
 ```
-clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -ffunction-sections -fdata-sections -Xlinker /OPT:REF -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch install_comfy.c path_utils.c process_utils.c utils.c ressource.res -o install_comfy.exe
+clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch install_comfy.c path_utils.c process_utils.c utils.c ressource.res -o install_comfy.exe
 ```
 
 compile update
 
 ```
-clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -ffunction-sections -fdata-sections -Xlinker /OPT:REF -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch update.c path_utils.c process_utils.c utils.c ressource.res -o update.exe
+clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch update.c path_utils.c process_utils.c utils.c ressource.res -o update.exe
 ```
 
 compile start
 
 ```
-clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -ffunction-sections -fdata-sections -Xlinker /OPT:REF -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch -lws2_32 start.c path_utils.c process_utils.c utils.c ressource.res -o start.exe
+clang -O3 -march=native -DNDEBUG -std=c23 -flto -fuse-ld=lld-link -lkernel32 -lshell32 -ladvapi32 -lversion -lwinmm -lshlwapi -lpathcch -lws2_32 start.c path_utils.c process_utils.c utils.c ressource.res -o start.exe
 ```
