@@ -16,8 +16,8 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#ifndef CPPTEST_PATH_UTILS_H
-#define CPPTEST_PATH_UTILS_H
+#ifndef PATH_UTILS_H
+#define PATH_UTILS_H
 
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -119,4 +119,4 @@ error_code search_sub_key(tool_info *t_info);
 
 error_code search_tool(tool_info *t_info);
 
-#endif //CPPTEST_PATH_UTILS_H
+#endif //PATH_UTILS_H

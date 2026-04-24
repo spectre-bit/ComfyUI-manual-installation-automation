@@ -16,8 +16,8 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#ifndef CPPTEST_PROCESS_UTILS_H
-#define CPPTEST_PROCESS_UTILS_H
+#ifndef PROCESS_UTILS_H
+#define PROCESS_UTILS_H
 
 #include <windows.h>
 
@@ -48,4 +48,4 @@ error_code loading_animation_s(wchar_t *text, size_t len, HANDLE h_console);
 
 #define loading_animation(text, h_console) loading_animation_s(text, ws_len(text), h_console)
 
-#endif //CPPTEST_PROCESS_UTILS_H
+#endif //PROCESS_UTILS_H
