@@ -34,7 +34,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #include <pathcch.h>
 #include <wchar.h>
 #include <shlobj.h>
-#include <signal.h>
 
 #include "path_utils.h"
 #include "process_utils.h"
