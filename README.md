@@ -101,7 +101,7 @@ Note that 8188 is the default port, you can also omit this argument.
 
 # Build
 
-You need a C compiler that supports C23 and the Windows SDK to be able to compile the tools. My recommendation is using clang with MSVC toolchain. I recommend to install full [LLVM](https://github.com/llvm/llvm-project/releases/tag/llvmorg-22.1.3) (LLVM-22.1.5-win64.exe). Use the [Visual Studio Installer](https://visualstudio.microsoft.com/de/downloads/) (Community Edition) to install MSVC and the Windows SDK. Or install the Builttools for Visual Studio. I will only give a tutorial for full LLVM with MSVC toolchain + Windows SDK installation.
+You need a C compiler that supports C23 and the Windows SDK to be able to compile the tools. My recommendation is using clang with MSVC toolchain. I recommend to install full [LLVM](https://github.com/llvm/llvm-project/releases/tag/llvmorg-23.1.0) (LLVM-23.1.0-win64.msi). Use the [Visual Studio Installer](https://visualstudio.microsoft.com/de/downloads/) (Community Edition) to install MSVC and the Windows SDK. Or install the Builttools for Visual Studio. I will only give a tutorial for full LLVM with MSVC toolchain + Windows SDK installation.
 
 compile the ressource
 
